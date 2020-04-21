@@ -1,0 +1,66 @@
+h1{
+    text-align: center;
+     font-style: oblique;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
+ 
+ body{
+     background: rgb(146, 228, 194);
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     text-align: justify;
+     font-size: larger;
+     
+ 
+ }
+ 
+ .ptable table{
+	margin: 30px auto;
+	border-collapse: collapse;
+}
+
+.ptable{
+	margin: 0px 0% 30px 0%;
+}
+
+ ul{
+     font-weight: bolder;
+ }
+ 
+ .wpos:hover{
+	background-color: #21ff58;
+}
+
+.wpos:hover td{
+	color: #000000;
+}
+
+.pos:hover{
+	background-color: #f89f38;
+}
+
+.pos:hover td{
+	color: #000000;
+}
+
+.rpos:hover{
+	background-color: #ff2121;
+}
+
+.rpos:hover td{
+	color: #000000;
+}
+
+footer{
+    font-family: cambria;
+    font-style: bold;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    font-size: large;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.1mm;
+    background-color: rgb(252, 231, 4);
+}

@@ -1,0 +1,83 @@
+h1{
+    text-align: center;
+     font-style: oblique;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
+
+ body{
+     background: rgb(146, 179, 228);
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     text-align: center;
+     font-size: larger;
+
+     border-style: double;
+     border-color: plum;
+     border-width: 5mm;
+     border-bottom: turquoise;
+ }
+
+
+ ul{
+     font-weight: bolder;
+     }
+
+form{
+    border-style: solid;
+    border-color: blueviolet;
+    border-width: 0.4mm;
+}
+
+.container{
+    padding: 20px;
+    background-color: skyblue;
+}
+
+input[type=text], input[type=email], input[type=submit]{
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+input[type=checkbox] {
+    margin-top: 16px;
+}
+
+input[type=submit] {
+    background-color: aliceblue;
+    color: black;
+    border: none;
+}
+
+input[type=submit]:hover{
+    opacity: 0.8;
+}
+
+h2{
+    text-align: center;
+     font-style: oblique;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
+ 
+ p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;  
+ }
+
+
+footer{
+    font-family: cambria;
+    font-style: bold;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    font-size: large;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.1mm;
+    background-color: rgb(252, 231, 4);
+}
+
